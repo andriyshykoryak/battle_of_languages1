@@ -1,0 +1,164 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.my-city-descr {
+    color: #1B1D1F;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.my-city-title {
+    color: #1B1D1F;
+
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 36px;
+
+}
+
+.main-page {
+    height: 100%;
+    width: 100%;
+    background: url("../img/background.jpg");
+    background-size: cover;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: auto;
+}
+
+.my-city-container {
+
+    border-radius: 40px;
+    background: #FFF;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    width: 573px
+}
+
+.goit-logo {
+    margin-bottom: 98px;
+
+}
+
+.form-page {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form {
+    border-radius: 40px;
+    background: #ECF4F8;
+    width: 1600px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-title {
+    color: #1B1D1F;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 40px;
+
+}
+
+.form-field {
+    border-radius: 12px;
+    border: 1px solid #2B4C5C;
+    width: 304px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    margin-right: 24px;
+    color: #1B1D1F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form-submit-btn {
+    border-radius: 12px;
+    background: #FF6B0A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border: none;
+    width: 310px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+.gallery-page {
+    padding-bottom: 88px;
+
+}
+
+.gallery-title {
+    margin-bottom: 80px;
+    color: var(--black, #1B1D1F);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+   
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.gallery-modal-btn{
+    width: calc(25% - (3*25px)/4);
+    padding: 0;
+    background: none;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 48px;
+    cursor: pointer;
+
+}
+.city-photo{
+    width: 100%;
+    border-radius: 48px;
+
+}
